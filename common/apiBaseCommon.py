@@ -1,7 +1,4 @@
 # -*- coding: UTF-8 -*-
-"""
-参考于\automation_cc\hujiang\api\business\apiCcweb\apiCcwebCommBase\apiCtCommon.py
-"""
 
 import time, logging, re
 import common.commonBase as commonBase

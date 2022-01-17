@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-
-# 参考与\hjAuto\base\commonBase.py
-
 import base64
 import binascii
 import hashlib
@@ -17,13 +14,9 @@ import time
 import urllib.parse
 import uuid
 from datetime import datetime, timedelta
-# from hjAuto.base.conf.envEnum import envEnum
-# from hujiang.ccWebApi.conf.envEnum import envEnum
 import pyDes
 import copy
 # import yaml
-# from nose.tools import eq_
-# from hujiang.ccWebApi.business.common.logLib import logLib
 from common.logLib import logLib
 logger = logLib(__name__)
 
