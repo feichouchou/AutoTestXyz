@@ -11,11 +11,11 @@ import time
 4、以wifi网络连接adb
     adb tcpip 5555
     adb connect 手机ip:5555
-5、安装相雨230客户端
-6、安装后检查，相雨进程是否启动，启动则下一步，未启动则先启动
+5、安装客户端apk
+6、安装后检查客户端进程是否启动，启动则下一步，未启动则先启动
 7、查看设备uid（如：u0_a345，去除下划线则为uid）
-    adb shell ps |grep com.maiya.xiangyu 
-8、控制台检查相雨电量已出现
+    adb shell ps |grep <package>
+8、控制台检查应用的电量消耗信息
     adb shell dumpsys batterystats com.maiya.xiangyu |grep uid
 9、运行python脚本
 10、将客户端所有授权全部允许并放置后台运行
